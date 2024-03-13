@@ -1,0 +1,110 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EsguerraActivity2
+{
+    internal class Program
+    {
+        static void Main(string[] args){
+            String value;
+            do
+            {
+                int res;
+                bool trot;
+                bool x;
+                bool y;
+                Console.WriteLine("Enter First Number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter Second Number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter a Symbol (/,+,-,*,==,>,<,>=,<=,!=,&&,||,!)");
+                String symbol = Console.ReadLine();
+
+
+
+                switch (symbol)
+                {
+                    case "/":
+                        res = num1 / num2;
+                        Console.WriteLine(res);
+                        break;
+
+                    case "+":
+                        res = num1 + num2;
+                        Console.WriteLine(res);
+                        break;
+
+                    case "-":
+                        res = num1 - num2;
+                        Console.WriteLine(res);
+                        break;
+
+                    case "*":
+                        res = num1 * num2;
+                        Console.WriteLine(res);
+                        break;
+
+                    case "==":
+                        trot = num1 == num2;
+                        Console.WriteLine(trot);
+                        break;
+                    case ">":
+                        trot = num1 > num2;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case "<":
+                        trot = num1 < num2;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case ">=":
+                        trot = num1 >= num2;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case "<=":
+                        trot = num1 <= num2;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case "!=":
+                        trot = num1 != num2;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case "&&":
+                        x = Convert.ToBoolean(num1);
+                        y = Convert.ToBoolean(num2);
+                        trot = x && y;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case "||":
+                        x = Convert.ToBoolean(num1);
+                        y = Convert.ToBoolean(num2);
+                        trot = x || y;
+                        Console.WriteLine(trot);
+                        break;
+
+                    case "!":
+                        x = Convert.ToBoolean(num1);
+                        y = Convert.ToBoolean(num2);
+                        trot = x && y;
+                        Console.WriteLine(trot);
+                        break;
+
+
+                }
+                Console.ReadLine();
+                Console.WriteLine("Do you want to Continue? y/n");
+                value = Console.ReadLine();
+            }
+            while (value == "y" || value == "Y");
+        }
+    }
+}
+
