@@ -1,0 +1,12 @@
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\bin\Debug\EsguerraVB.exe.config
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\bin\Debug\EsguerraVB.exe
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\bin\Debug\EsguerraVB.pdb
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\bin\Debug\EsguerraVB.xml
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.vbproj.AssemblyReference.cache
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.Form1.resources
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.Resources.resources
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.vbproj.GenerateResource.cache
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.vbproj.CoreCompileInputs.cache
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.exe
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.xml
+D:\ESGUERRA_CP1221_IC1DA\EsguerraVB\EsguerraVB\obj\Debug\EsguerraVB.pdb
